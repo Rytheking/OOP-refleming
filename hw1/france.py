@@ -1,12 +1,13 @@
 import random
 
+r = "republic"
+m = "monarchy"
+f = "facist dictatorship"
+em = "Emmanuel Macron"
+mlp = "Marie la Pen"
+lxxb = "Louis XX Bourbon"
+
 class France:
-    r = "republic"
-    m = "monarchy"
-    f = "facist dictatorship"
-    em = "Emmanuel Macron"
-    mlp = "Marie la Pen"
-    lxxb = "Louis XX Bourbon"
 
     def __init__(self,govtype : str, head : str, population: int,year: int) -> None:
         self._govtype : str = govtype
@@ -14,13 +15,11 @@ class France:
         self._population : str = population
         self._year : int = year
     
-    def newYear() -> None:
-        self._year+=1
-        temp : int = randrange(5)
-        if(temp==1):
-            revolution
+    def newYear(self) -> None:
+        self._year = self._year + 1
+        
 
-    def announcement() -> str:
+    def announcement(self) -> str:
         temp : str = "A revolution has happened! " +self.head+" is now in power!"
         return temp
 

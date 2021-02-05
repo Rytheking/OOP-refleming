@@ -8,22 +8,24 @@ class FranceTest(unittest.TestCase):
         head : str = "mlp"
         population : int = 6000000
         year : int = 1945
-        France : France = France(govtype, head, population, year)
-        self.assertEqual(France.govtype,govtype)
-        self.assertEqual(France.head,head)
-        self.assertEqual(France.population,population)
-        self.assertEqual(France.year,year)
+        france : France = France(govtype, head, population, year)
+        self.assertEqual(france.govtype,govtype)
+        self.assertEqual(france.population,population)
+        self.assertEqual(france.year,year)
     def testYear(self):
         govtype : str = "facist dictatorship"
         head : str = "mlp"
         population : int = 6000000
         year : int = 1945
-        France : France = France(govtype, head, population, year)
-        self.assertEqual(France.govtype,govtype)
-        self.assertEqual(France.head,head)
-        self.assertEqual(France.population,population)
-        self.assertEqual(France.year,year)
-        France.newYear()
-        self.assertNotEqual(France.year,year+1)
+        france : France = France(govtype, head, population, year)
+        self.assertEqual(france.govtype,govtype)
+        self.assertEqual(france.head,head)
+        self.assertEqual(france.population,population)
+        self.assertEqual(france.year,year)
+        france.newYear()
+        self.assertEqual(france.year,year+1)
+
+if __name__ == '__main__':
+    unittest.main()
 
 
