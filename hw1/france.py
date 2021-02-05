@@ -17,30 +17,7 @@ class France:
     
     def newYear(self) -> None:
         self._year = self._year + 1
-        
-
-    def announcement(self) -> str:
-        temp : str = "A revolution has happened! " +self.head+" is now in power!"
-        return temp
-
-    def revolution() -> None:
-        a :int = randrange(3)
-        if(a==1):
-            if(self.govtype!=m):
-                self._govtype : str = m
-                self._head : str = lxxb
-                print(announcement())
-        if(a==2):
-            if(self.govtype!=f):
-                self._govtype : str = f
-                self._head : str = mlp
-                print(announcement())
-        if(a==3):
-            if(self.govtype!=r):
-                self._govtype :str = r
-                self._head : str = em
-                print(announcement())
-    
+        self._population = self._population*1.14
 
     @property
     def govtype(self):

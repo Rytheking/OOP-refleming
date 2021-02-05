@@ -24,6 +24,7 @@ class FranceTest(unittest.TestCase):
         self.assertEqual(france.year,year)
         france.newYear()
         self.assertEqual(france.year,year+1)
+        self.assertEqual(france.population,population*1.14)
 
 if __name__ == '__main__':
     unittest.main()
