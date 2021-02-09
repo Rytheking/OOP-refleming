@@ -88,6 +88,12 @@ dist
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public
 
+# vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 # vuepress build output
 .vuepress/dist
 
@@ -102,3 +108,4 @@ dist
 
 # TernJS port file
 .tern-port
+hw2/src/test_Moon.cpp
