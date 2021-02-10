@@ -17,9 +17,6 @@ namespace moon
         public: int size();
         public: std::string color();
         public: void color(std::string value);
-
-            
-
-        
+  
     };
 } // namespace moon

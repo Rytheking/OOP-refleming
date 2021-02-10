@@ -90,6 +90,7 @@ dist
 
 # vscode
 .vscode/*
+settings.json
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -109,3 +110,4 @@ dist
 # TernJS port file
 .tern-port
 hw2/src/test_Moon.cpp
+.vscode/settings.json
