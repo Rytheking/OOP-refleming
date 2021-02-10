@@ -48,6 +48,6 @@ namespace france
     }
     void France::year(int value)
     {
-        m_year=year;
+        m_year=value;
     }
 }
