@@ -18,8 +18,8 @@ namespace france
         //getters
         public: std::string govType();
         public: std::string head();
-        public: std::string population();
-        public: std::string year();
+        public: int population();
+        public: int year();
 
         //setters
         public: void govType(std::string value);
