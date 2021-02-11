@@ -1,8 +1,8 @@
-# Hello
+# Simple Object
 
-This makes a greet function that can return greeting messages.
+This is an example of how to construct a simple Object in C++
 
-The makefile is fairly generic, and, if you structure your project as
+If you keep the file structure similar to the one below it should be easy to build
 
 ```
 src/*.cpp
@@ -26,27 +26,17 @@ make all
 ## Test
 
 ```bash
-bin/test_hello
+bin/test_France
 ```
 
 ## Run
 
 ```bash
-bin/hello
+bin/france
 ```
 ## Clean-Build-Test Screen Capture
 
-![clean-test-build.png](clean-build-test.png)
-
-## Docker
-
-To create a reproducible build (advanced) and you have docker installed, you can do the following:
-
-```bash
-docker build -t cpp-hello .
-docker run --rm -t cpp-hello test_hello # test
-docker run --rm -t cpp-hello hello # run
-```
+![CPPass.png](CPPass.png)
 
 ## References
 
