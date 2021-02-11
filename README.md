@@ -11,3 +11,7 @@ Create an object with typed python and pass tests
 
 # [HW2](https://github.com/Rytheking/OOP-refleming/tree/main/hw2)
 Mimic python object in C++
+
+
+# [HW3](https://github.com/Rytheking/OOP-refleming/tree/main/hw3)
+Mimic python object in JS
