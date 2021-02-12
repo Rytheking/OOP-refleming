@@ -16,8 +16,5 @@ describe('Moon', function() {
         assertEq(moon.color,color)
         assertEq(moon.size,size)
     });
-    it('should be "Hello, Alice!" when with Alice', function(){
-		// ....
-    });
   });
 });
