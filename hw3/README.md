@@ -13,7 +13,7 @@ test/*test.js
 ```
 ## Clean-Build-Test Screen Capture
 
-![TestPass.png](TestPass.png)
+![TestsPass.png](TestsPass.png)
 
 ## References
 
