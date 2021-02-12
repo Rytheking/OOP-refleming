@@ -30,10 +30,6 @@ class France {
     set head(value) {
         this._head=value
     }
-
-
-    
-
 }
 
 module.exports = { 'France' : France }
