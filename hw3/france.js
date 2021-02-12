@@ -21,7 +21,7 @@ class France {
         return this._population
     }
     get year() {
-        return this._population
+        return this._year
     }
 
     set govType(value) {
