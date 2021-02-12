@@ -1,6 +1,6 @@
-# Hello
+# France (Simple Object)
 
-Make a hello function that can return greeting messages.  The project structure is to have the functionality in the `hello` directory, and the corresponding tests in `hellotest`
+Make a simple object which mimics previous python project, pass at least a constructor test.
 
 ```
 *.js
@@ -13,17 +13,7 @@ test/*test.js
 ```
 ## Clean-Build-Test Screen Capture
 
-![run-test.png](run-test.png)
-
-## Docker
-
-To create a reproducible build (advanced) and you have docker installed, you can do the following:
-
-```bash
-docker build -t js-hello .
-docker run -i --rm -t js-hello npm test # test
-docker run -i --rm -t js-hello node main.js # run
-```
+![TestPass.png](TestPass.png)
 
 ## References
 
