@@ -15,3 +15,7 @@ Mimic python object in C++
 
 # [HW3](https://github.com/Rytheking/OOP-refleming/tree/main/hw3)
 Mimic python object in JS
+
+
+# [Py-OO](https://github.com/Rytheking/OOP-refleming/tree/main/py-oo)
+Expand python object to have relational properties
