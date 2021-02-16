@@ -24,8 +24,6 @@ class France(Country):
 
     def __init__(self, continent : str, GDP : int,govtype : str, head : str, population: int,year: int) -> None:
         Base.__init__(self, "Europe", 18999999999)
-        self._continent = continent
-        self._GDP = GDP
         self._govtype : str = govtype
         self._head : str = head
         self._population : str = population
