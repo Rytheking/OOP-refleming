@@ -7,9 +7,23 @@ em = "Emmanuel Macron"
 mlp = "Marie la Pen"
 lxxb = "Louis XX Bourbon"
 
-class France:
+class Country:
+    def __init__(self, continent : str, GDP : int):
+        self._continent = continent
+        self._GDP = GDP
+
+    @property
+    def continent(self)
+        return self._continent
+    
+    @property
+    def GDP(self)
+        return self._GDP
+
+class France(Country):
 
     def __init__(self,govtype : str, head : str, population: int,year: int) -> None:
+        Base.__init__(self, "Europe", 18999999999)
         self._govtype : str = govtype
         self._head : str = head
         self._population : str = population
