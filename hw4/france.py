@@ -23,7 +23,7 @@ class Country:
 class France(Country):
 
     def __init__(self, continent : str, GDP : int,govtype : str, head : str, population: int,year: int) -> None:
-        Base.__init__(self, "Europe", 18999999999)
+        Country.__init__(self, "Europe", 18999999999)
         self._govtype : str = govtype
         self._head : str = head
         self._population : str = population
@@ -40,6 +40,10 @@ class France(Country):
     @property
     def head(self):
         return self._head
+
+    @head.setter
+    def head(self,value : str) -> None:
+        self._head = value
 
     @property
     def year(self):
