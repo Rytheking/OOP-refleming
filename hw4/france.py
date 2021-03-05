@@ -13,17 +13,17 @@ class Country:
         self._GDP = GDP
 
     @property
-    def continent(self)
+    def continent(self):
         return self._continent
     
     @property
-    def GDP(self)
+    def GDP(self):
         return self._GDP
 
 class France(Country):
 
     def __init__(self, continent : str, GDP : int,govtype : str, head : str, population: int,year: int) -> None:
-        Country.__init__(self, "Europe", 18999999999)
+        Country.__init__(self, continent, GDP)
         self._govtype : str = govtype
         self._head : str = head
         self._population : str = population

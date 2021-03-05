@@ -7,10 +7,10 @@ class CountryTest(unittest.TestCase):
     def testCountry(self):
         GDP : float = 170000000
         continent : str = "Europe"
-        Country : Country = Country(continent, GDP)
+        country : Country = Country(continent, GDP)
 
-        self.assertEqual(Country.continent,continent)
-        self.assertEqual(Country.GDP,GDP)
+        self.assertEqual(country.continent,continent)
+        self.assertEqual(country.GDP,GDP)
 
         
 if __name__ == '__main__':
