@@ -1,25 +1,30 @@
+#pragma once
+
 #include <string>
+#include "country.h"
 
 namespace france
 {
 
-    class France
+    class France: public Country
     {
         private: std::string m_govtype;
         private: std::string m_head;
         private: int m_population;
         private: int m_year;
 
-        public: France(std::string govtype, std::string head, int population, int year);
+        public: France();
+
+        public: France(const std::string continent, float GDP, std::string govtype, std::string head, int population, int year);
 
         //function
         public: void newYear();
 
         //getters
-        public: std::string govType();
-        public: std::string head();
-        public: int population();
-        public: int year();
+        public: std::string govType() const;
+        public: std::string head() const;
+        public: int population() const;
+        public: int year() const;
 
         //setters
         public: void govType(std::string value);
@@ -30,4 +35,6 @@ namespace france
 
 
     };
+
+    typedef std::shared_ptr < France > FrancePtr;
 } // namespace france
