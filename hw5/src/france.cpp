@@ -14,7 +14,7 @@ namespace france
         std::cout << "France@" << (void *)this << " constructed." << std::endl;
     }
 
-    France::France(std::string continent, float GDP, std::string govtype, std::string head, int population, int year)
+    France::France(float GDP, std::string continent, std::string govtype, std::string head, int population, int year)
     :Country(GDP, continent)
     {
         m_govtype = govtype;

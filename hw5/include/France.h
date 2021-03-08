@@ -15,7 +15,7 @@ namespace france
 
         public: France();
 
-        public: France(const std::string continent, float GDP, std::string govtype, std::string head, int population, int year);
+        public: France(float GDP,const std::string continent,  std::string govtype, std::string head, int population, int year);
 
         public : virtual ~France();
         //function
