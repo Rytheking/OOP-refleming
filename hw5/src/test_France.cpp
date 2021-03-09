@@ -27,7 +27,7 @@ TEST(France, Constructor)
 TEST(France, DefaultConstructor)
 {
   float GDP = 13000000;
-  std::string continent ="Europe";
+  std::string continent ="europe";
   string govType="Facist Dictatorship";
   string head="Marie LaPen";
   int population=60000000;
