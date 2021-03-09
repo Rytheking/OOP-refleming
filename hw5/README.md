@@ -38,8 +38,8 @@ bin/country
 ```
 ## Clean-Build-Test Screen Capture
 
-![francepass.png](francepass.png)
-![countrypass.png](countrypass.png)
+![Francepass.png](Francepass.png)
+![Countrypass.png](Countrypass.png)
 
 ## References
 
