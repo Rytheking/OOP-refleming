@@ -4,4 +4,4 @@
 - [X] Two classes
 ## Testing
 
-![pythonpass.png](pythonass.png)
+![pythonpass.png](pythonpass.png)
