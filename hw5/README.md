@@ -27,16 +27,19 @@ make all
 
 ```bash
 bin/test_France
+bin/test_Country
 ```
 
 ## Run
 
 ```bash
 bin/france
+bin/country
 ```
 ## Clean-Build-Test Screen Capture
 
-![CPPass.png](CPPass.png)
+![Francepass.png](Francepass.png)
+![Countrypass.png](Countrypass.png)
 
 ## References
 
@@ -46,3 +49,6 @@ bin/france
 1. [src/include](https://www.learncpp.com/cpp-tutorial/89-class-code-and-header-files/)
 
 
+
+# [Py-OO](https://github.com/Rytheking/OOP-refleming/tree/main/hw4)
+Expand python object to have relational properties
