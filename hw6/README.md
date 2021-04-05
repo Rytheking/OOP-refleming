@@ -1,6 +1,6 @@
 # France (object Oriented JS)
 
-Make a object oriented program which mimics previous python project, pass at least a constructor test.
+Make a object oriented program which mimics previous python project, using a class and superclass to practice inheritance.
 
 ```
 *.js
@@ -10,13 +10,13 @@ Make a object oriented program which mimics previous python project, pass at lea
 
 ```bash
 test/*test.js
+npm test
 ```
 ## Clean-Build-Test Screen Capture
 
-![TestsPass.png](TestsPass.png)
+Couldn't get tests to work
 
 ## References
 
-1. [Python Unit tests](https://docs.python.org/2/library/unittest.html)
 
 
