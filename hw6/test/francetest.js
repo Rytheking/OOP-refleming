@@ -4,8 +4,8 @@ import { FranceModel } from '../france.mjs'
 describe('France', function () {
     describe('#constructor', function () {
         it('can be made', function () {
-            const govType = 3
-            const head = "blue"
+            const govType = "monarchy"
+            const head = "Louis"
             const population = 28000
             const year = 1776
             const france = new France(govType, head, population, year)
@@ -17,8 +17,8 @@ describe('France', function () {
     });
     describe('#newYear()', function () {
         it('can be interacted with', function () {
-            const govType = 3
-            const head = "blue"
+            const govType = "facist"
+            const head = "Louis"
             const population = 2800
             const year = 1776
             const france = new France(govType, head, population, year)
