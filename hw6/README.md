@@ -1,6 +1,6 @@
-# France (Simple Object)
+# France (object Oriented JS)
 
-Make a simple object which mimics previous python project, pass at least a constructor test.
+Make a object oriented program which mimics previous python project, pass at least a constructor test.
 
 ```
 *.js

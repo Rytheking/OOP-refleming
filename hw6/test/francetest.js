@@ -1,9 +1,5 @@
-const assert = require('assert');
-const chai = require('chai');
-const { France } = require('../france');
-
-const expect = chai.expect;
-const assertEq = assert.deepStrictEqual
+import { assert } from 'chai'
+import { FranceModel } from '../france.mjs'
 
 describe('France', function () {
     describe('#constructor', function () {

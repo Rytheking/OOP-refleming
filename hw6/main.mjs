@@ -1,3 +1,5 @@
-import { hello } from './hello.mjs';
+import { France, FranceInstantiate } from './france.mjs'
 
-console.log(hello.helloMessage("World!"));
+$(document).ready(() => {
+   FranceInstantiate();
+});

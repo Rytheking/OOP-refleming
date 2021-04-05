@@ -26,7 +26,7 @@ class France(Country):
         Country.__init__(self, continent, GDP)
         self._govtype : str = govtype
         self._head : str = head
-        self._population : str = population
+        self._population : int = population
         self._year : int = year
     
     def newYear(self) -> None:
