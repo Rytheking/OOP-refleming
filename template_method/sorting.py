@@ -1,12 +1,16 @@
+import random
+import copy
 class Sort:
-    def template_method(self):
-        print(self.__class__)
-        arr = [10,20,1,25,44,68,0,89,74,4,2,3,3,3,3,3,420,69,73,49,452,2542,1,34,8,6,52]
-        print(arr)
-        self.sort(arr)
-        print(arr)
+    def makeArr(self,seed,len):
+        random.seed(seed)
+        arr = [random.randint(0,999999999999999) for _ in range(len)]
+        return arr
     def sort(arr):
         pass
+    def template_method(self,arr):
+        orig=copy.copy(arr)
+        self.sort(arr)
+        return arr
 class quickSort(Sort):
     def partition(self,arr,low,high):
         i=low-1
@@ -27,6 +31,7 @@ class quickSort(Sort):
             self.quickSort(arr,pi+1,high)
     def sort(self,arr):
         self.quickSort(arr,0,len(arr)-1)
+        return arr
 
 class bubbleSort(Sort):
     def sort(self,arr):
@@ -34,6 +39,8 @@ class bubbleSort(Sort):
             for j in range(0, len(arr)-i-1):
                 if arr[j] > arr[j+1]:
                     arr[j],arr[j+1]=arr[j+1],arr[j]
+        return arr
+
 class insertionSort(Sort):
     def sort(self,arr):
         for i in range(1,len(arr)):
@@ -43,10 +50,16 @@ class insertionSort(Sort):
                 arr[j+1]=arr[j]
                 j -= 1
             arr[j+1]=key
-def doit(sort_method: Sort) -> None:
-    sort_method.template_method()
+        return arr
+
+def doit(sort_method: Sort):
+    return sort_method.template_method(sort_method.makeArr(10,10))
+def testit(sort_method: Sort, seed, len):
+    return sort_method.template_method(sort_method.makeArr(seed,len))
 
 doit(insertionSort())
 doit(bubbleSort())
 doit(quickSort())
+
+
 
