@@ -23,3 +23,6 @@ Expand python object to have relational properties
 
 # [HW5](https://github.com/Rytheking/OOP-refleming/tree/main/hw5)
 Translate superclass and classes into C++ and use constness
+
+# [HW6](https://github.com/Rytheking/OOP-refleming/tree/main/hw6)
+Translate superclass and classes into JS
