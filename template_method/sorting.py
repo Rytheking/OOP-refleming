@@ -1,5 +1,4 @@
 import random
-import copy
 class Sort:
     def makeArr(self,seed,len):
         random.seed(seed)
@@ -8,7 +7,6 @@ class Sort:
     def sort(arr):
         pass
     def template_method(self,arr):
-        orig=copy.copy(arr)
         self.sort(arr)
         return arr
 class quickSort(Sort):
