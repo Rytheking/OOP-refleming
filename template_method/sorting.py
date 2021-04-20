@@ -6,7 +6,8 @@ class Sort:
         return arr
     def sort(arr):
         pass
-    def template_method(self,arr):
+    def template_method(self,seed,len):
+        arr=makeArr(self,seed,len)
         self.sort(arr)
         return arr
 class quickSort(Sort):
@@ -51,9 +52,9 @@ class insertionSort(Sort):
         return arr
 
 def doit(sort_method: Sort):
-    return sort_method.template_method(sort_method.makeArr(10,10))
+    return sort_method.template_method(10,10)
 def testit(sort_method: Sort, seed, len):
-    return sort_method.template_method(sort_method.makeArr(seed,len))
+    return sort_method.template_method(seed,len)
 
 doit(insertionSort())
 doit(bubbleSort())
