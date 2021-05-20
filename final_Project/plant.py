@@ -7,7 +7,7 @@ class Cultivar:
     pass
 
 class Cultivar:
-    def __init__(self, name : str, genetics : str, parent1 : Cultivar, parent2 : Cultivar, terp_profile : list, floweringTime : int, autoflower : bool, landrace : bool):
+    def __init__(self, name : str, genetics : str, parent1 : Cultivar, parent2 : Cultivar, terp_profile : list, floweringTime : int, autoflower : bool, landrace  ):
             self._name = name
             self._genetics = genetics
             self._parent1 = parent1
