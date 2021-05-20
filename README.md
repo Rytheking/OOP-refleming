@@ -26,3 +26,6 @@ Translate superclass and classes into C++ and use constness
 
 # [HW6](https://github.com/Rytheking/OOP-refleming/tree/main/hw6)
 Translate superclass and classes into JS
+
+# [Final Project](https://github.com/Rytheking/OOP-refleming/tree/main/final_project)
+Email grow monitor
